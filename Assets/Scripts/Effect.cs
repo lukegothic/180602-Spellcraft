@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+// TODO: CLASS
 public enum Effects {
     Weak,
     Vulnerable,
     Heal,
     Damage,
-    Defense
+    Defense,
+    Energy,
+    Draw
 }
 public enum TargetType {
     Single,
