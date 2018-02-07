@@ -246,11 +246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e7c1730bf104348bb547f617b36502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
-  nameText: {fileID: 0}
-  costText: {fileID: 0}
-  typeText: {fileID: 0}
-  bodyText: {fileID: 0}
+  button: {fileID: 114861905900034786}
+  nameText: {fileID: 114047749132217866}
+  costText: {fileID: 114015300448705118}
+  typeText: {fileID: 114581830999160960}
+  bodyText: {fileID: 114103494201054876}
 --- !u!114 &114304823478346314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -466,7 +466,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1077172864248334}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -515,6 +515,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: 60, y: -20}
+  m_AnchoredPosition: {x: 0, y: 7.499998}
+  m_SizeDelta: {x: 0, y: 14.999996}
   m_Pivot: {x: 0.5, y: 0.5}
