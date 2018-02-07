@@ -30,7 +30,6 @@ public class Card : ScriptableObject {
             case CardType.Skill:
                 break;
             case CardType.Power:
-                Player.instance.powers.AddRange(isUpgraded ? upgradedEffects : basicEffects);
                 break;
             default:
                 break;

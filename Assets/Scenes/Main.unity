@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -565,6 +565,7 @@ GameObject:
   - component: {fileID: 803387275}
   - component: {fileID: 803387274}
   - component: {fileID: 803387278}
+  - component: {fileID: 803387279}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -658,6 +659,19 @@ MonoBehaviour:
   deck:
   - {fileID: 11400000, guid: 893551278127d5a44ab1dd4d606407f3, type: 2}
   - {fileID: 11400000, guid: 760b2078d7491eb49b7802a75d8eee9f, type: 2}
+--- !u!114 &803387279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 803387273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c384f79a09861479b4f37d94a9dbef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  current: 50
+  max: 50
 --- !u!1 &940290466
 GameObject:
   m_ObjectHideFlags: 0

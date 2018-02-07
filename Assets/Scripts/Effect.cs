@@ -45,38 +45,3 @@ public class Effect {
         }
     }
 }
-public class DamageEffect : Effect {
-    public override void Play() {
-        Debug.Log(string.Format("Hit {0} for {1} damage", targetType, power));
-    }
-}
-public class DrawEffect : Effect {
-    public override void Play() {
-        Debug.Log(string.Format("Hit enemy for {0} damage", power));
-    }
-}
-public class DefenseEffect : Effect {
-    public override void Play() {
-        Debug.Log(string.Format("Hit enemy for {0} damage", power));
-    }
-}
-public class HealEffect : Effect {
-    public override void Play() {
-        Debug.Log(string.Format("Heal me for {0} life", power));
-    }
-}
-public class VulnerableEffect : Effect {
-    public override void Play() {
-        Debug.Log(string.Format("VulnerableEffect enemy for {0} damage", power));
-    }
-}
-public class WeakEffect : Effect {
-    public override void Play() {
-        Debug.Log(string.Format("WeakEffect enemy for {0} damage", power));
-    }
-}
-public class EnergyEffect : Effect {
-    public override void Play() {
-        Debug.Log(string.Format("Hit enemy for {0} damage", power));
-    }
-}
