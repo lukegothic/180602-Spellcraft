@@ -14,6 +14,7 @@ public class Card : ScriptableObject {
     public CardType cardType;
     public Effect[] basicEffects;
     public Effect[] upgradedEffects;
+    public List<ICardEffect> newEffects;
 
     public string GetText() {
         string text = "";
